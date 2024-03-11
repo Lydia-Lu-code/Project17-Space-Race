@@ -9,24 +9,26 @@
 /* Begin PBXBuildFile section */
 		00AFD2772B9F37A0006E2935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AFD2762B9F37A0006E2935 /* AppDelegate.swift */; };
 		00AFD2792B9F37A0006E2935 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD2782B9F37A0006E2935 /* GameScene.sks */; };
-		00AFD27B2B9F37A0006E2935 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD27A2B9F37A0006E2935 /* Actions.sks */; };
 		00AFD27D2B9F37A0006E2935 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AFD27C2B9F37A0006E2935 /* GameScene.swift */; };
 		00AFD27F2B9F37A0006E2935 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AFD27E2B9F37A0006E2935 /* GameViewController.swift */; };
 		00AFD2822B9F37A0006E2935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD2802B9F37A0006E2935 /* Main.storyboard */; };
 		00AFD2842B9F37A8006E2935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD2832B9F37A8006E2935 /* Assets.xcassets */; };
 		00AFD2872B9F37A8006E2935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD2852B9F37A8006E2935 /* LaunchScreen.storyboard */; };
+		00AFD28F2B9F37F1006E2935 /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD28D2B9F37F1006E2935 /* explosion.sks */; };
+		00AFD2902B9F37F1006E2935 /* starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 00AFD28E2B9F37F1006E2935 /* starfield.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00AFD2732B9F37A0006E2935 /* Project17-Space Race.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project17-Space Race.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00AFD2762B9F37A0006E2935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00AFD2782B9F37A0006E2935 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		00AFD27A2B9F37A0006E2935 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		00AFD27C2B9F37A0006E2935 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		00AFD27E2B9F37A0006E2935 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		00AFD2812B9F37A0006E2935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00AFD2832B9F37A8006E2935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00AFD2862B9F37A8006E2935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00AFD28D2B9F37F1006E2935 /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		00AFD28E2B9F37F1006E2935 /* starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starfield.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +63,11 @@
 			children = (
 				00AFD2762B9F37A0006E2935 /* AppDelegate.swift */,
 				00AFD2782B9F37A0006E2935 /* GameScene.sks */,
-				00AFD27A2B9F37A0006E2935 /* Actions.sks */,
 				00AFD27C2B9F37A0006E2935 /* GameScene.swift */,
 				00AFD27E2B9F37A0006E2935 /* GameViewController.swift */,
 				00AFD2802B9F37A0006E2935 /* Main.storyboard */,
+				00AFD28D2B9F37F1006E2935 /* explosion.sks */,
+				00AFD28E2B9F37F1006E2935 /* starfield.sks */,
 				00AFD2832B9F37A8006E2935 /* Assets.xcassets */,
 				00AFD2852B9F37A8006E2935 /* LaunchScreen.storyboard */,
 			);
@@ -132,8 +135,9 @@
 				00AFD2822B9F37A0006E2935 /* Main.storyboard in Resources */,
 				00AFD2792B9F37A0006E2935 /* GameScene.sks in Resources */,
 				00AFD2842B9F37A8006E2935 /* Assets.xcassets in Resources */,
+				00AFD28F2B9F37F1006E2935 /* explosion.sks in Resources */,
 				00AFD2872B9F37A8006E2935 /* LaunchScreen.storyboard in Resources */,
-				00AFD27B2B9F37A0006E2935 /* Actions.sks in Resources */,
+				00AFD2902B9F37F1006E2935 /* starfield.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,8 +308,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,8 +335,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
